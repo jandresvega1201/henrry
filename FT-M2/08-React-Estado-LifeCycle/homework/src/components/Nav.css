@@ -1,0 +1,29 @@
+#logoHenry {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid greenyellow;
+  border-radius: 15px;
+  padding: 0 24px;
+  height: 60px;
+}
+.logo {
+  position: relative;
+  height:40px;
+  top: 5px;
+
+}
+.input {
+  position: relative;
+  height:40px;
+  top: 5px;
+  margin-right:5px;
+}
+.agregar {
+  position: relative;
+  height:40px;
+  top: 5px;
+}
+

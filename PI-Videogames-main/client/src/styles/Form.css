@@ -1,0 +1,264 @@
+.div-fondo-form {
+    overflow-y: hidden;
+    position : absolute;
+    width : 100%;
+    height : 100%;
+    background-size: cover;
+    background-image:url("../assets/imagenes/fondoForm.png");
+    overflow-x: hidden;
+}
+.container-form {
+    width: 650px;
+    height: 650px;
+    position: relative;
+    top: 120px;
+    margin: 0 auto;
+}
+.form {
+    position: relative;
+    bottom: 50px;
+    width:650px;
+    height:500px;
+    border-radius:20px;
+    background-image: linear-gradient(to bottom, black, white);
+    top: 30px;
+    text-align: center;
+}
+
+.div-name {
+    position: absolute;
+    width: 400px;
+    left: 120px;
+    top: 10px;
+    display: inline-block;
+}
+.div-name input{
+    position: relative;
+    width: 250px;
+    right: 120px;
+    height: 25px;
+    border-style: none;
+    border-radius: 10px;
+    left: 35px;
+}
+.div-name label{
+    position: relative;
+    font-size: 20px;
+    font-family: cursive;
+    right: 120px;
+    left: -40px;
+    color: greenyellow;
+}
+.div-release {
+    position: absolute;
+    width: 400px;
+    left: 120px;
+    top: 70px;
+    display: inline-block;
+}
+.div-release label {
+    position: relative;
+    font-size: 20px;
+    font-family: cursive;
+    right: 120px;
+    left: -5px;
+    color: greenyellow;
+
+}
+.div-release input {
+    width: 250px;
+    right: 120px;
+    height: 25px;
+    border-style: none;
+    border-radius: 10px;
+}
+.div-imagen {
+    position: absolute;
+    width: 400px;
+    left: 120px;
+    top: 130px;
+    display: inline-block;
+}
+.div-imagen label{
+    position: relative;
+    font-size: 20px;
+    font-family: cursive;
+    right: 120px;
+    left: -32px;
+    color: greenyellow;
+}
+.div-imagen input {
+    position: relative;
+    width: 250px;
+    right: 120px;
+    height: 25px;
+    border-style: none;
+    border-radius: 10px;
+    left: 28px;
+}
+.div-rating {
+    position: absolute;
+    width: 400px;
+    left: 120px;
+    top: 190px;
+    display: inline-block;
+}
+.div-rating label {
+    position: relative;
+    font-size: 20px;
+    font-family: cursive;
+    right: 120px;
+    left: -35px;
+    color: greenyellow;
+}
+.div-rating input {
+    position: relative;
+    width: 250px;
+    right: 120px;
+    height: 25px;
+    border-style: none;
+    border-radius: 10px;
+    left: 32px;
+}
+.div-desc {
+    position: absolute;
+    top: 250px;
+    left: 130px;
+}
+#des {
+    position: relative;
+    font-size: 20px;
+    font-family: cursive;
+    right: 120px;
+    left: -10px;
+    top: -70px;
+    color: greenyellow;
+}
+.div-desc textarea {
+    width: 300px;
+    margin-left: 7px;
+}
+
+.div-genre {
+    position: absolute;
+    left: 100px;
+    top: 360px;
+    display: inline-block;
+}
+.div-genre label {
+    position: relative;
+    font-size: 20px;
+    font-family: cursive;
+}
+.div-genre select {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+.div-platforms {
+    position: absolute;
+    left: 390px;
+    top: 360px;
+    display: inline-block;
+}
+.div-platforms label {
+    position: relative;
+    font-size: 20px;
+    font-family: cursive;
+}
+.div-platforms select {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+.div-save {
+    position: relative;
+    display: inline-block;
+    left: -80px;
+}
+.div-save button {
+    height: 40px;
+    width: 100px;
+    font-family: cursive;
+    font-size: 15px;
+    border: 5px solid #111111;
+    border-radius: 15px;
+    color:green;
+    cursor: pointer;
+}
+.div-save button:hover {
+    background: greenyellow;
+    color: black ;
+}
+.div-back-home {
+    position: relative;
+    display: inline-block;
+    left: 200px;
+}
+.div-back-home button {
+    height: 40px;
+    width: 100px;
+    font-family: cursive;
+    font-size: 15px;
+    border: 5px solid #111111;
+    border-radius: 15px;
+    color:green;
+    cursor: pointer;
+}
+.div-back-home button:hover {
+    background: greenyellow;
+    color: black ;
+}
+.div-btn-back-send {
+    position: absolute;
+    top: 440px;
+    left: 190px;
+    display: inline-block;
+}
+.errors {
+    width: 260px;
+    position: relative;
+    text-align: left;
+    margin: 45px;
+    height: 15px;
+    left: 220px;
+    top: 40px;
+}
+.-des {
+    width: 260px;
+    left: 220px;
+    position: relative;
+    top: 92px;
+    display: inline-block;
+}
+.-des p {
+    color: red;
+    margin: 0;
+}
+#err {
+    color: red;
+    margin: 0;
+}
+.errorsG {
+    position: relative;
+    display: inline-block;
+    right: 180px;
+    top: 155px;
+    vertical-align:top;
+}
+.errorsG p {
+    color: red;
+    margin: 0;
+}
+.errorsP {
+    position: relative;
+    display: inline-block;
+    top: 155px;
+    right: 60px;
+    vertical-align:top;
+}
+.errorsP p {
+    margin: 0;
+    color: red;
+}
+

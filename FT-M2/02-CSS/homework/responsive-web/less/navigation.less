@@ -1,0 +1,23 @@
+// Código de Nav acá
+@import "mixins";
+@import "variables";
+body {
+  .barNav {
+    h3 {
+      text-align: center;
+      margin-top: 50px;
+    }
+    li {
+      .barNav();
+    }
+    ul {
+      .barNav()
+    }
+  }
+  @media @phone {
+    width: 80%;
+  }
+}
+
+
+

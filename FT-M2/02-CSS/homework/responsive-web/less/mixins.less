@@ -1,0 +1,20 @@
+// Mixins acá
+@import "variables";
+.barNav {
+  li {
+    font-size:15px;
+    color:red;
+    margin: 15px;
+  }
+}
+.barNav ul {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.btn-r(@color-btn, @radius) {
+  background-color:@color-btn;
+  border-radius: @radius;
+  transition: background-color .5s;
+}
+
